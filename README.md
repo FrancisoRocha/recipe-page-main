@@ -25,6 +25,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor]([https://ww
 - Mobile: 
 ![iPhone 12 Pro-1709412119906](https://github.com/FrancisoRocha/recipe-page-main/assets/122055396/7908a2fe-682b-48cc-b489-5753b7001794)
 
+
 ### Links
 
 - Solution URL: [Add solution URL here]([https://your-solution-url.com)](https://www.frontendmentor.io/solutions/httpsgithubcomfrancisorocharecipepagemainblobmainstylecss-BJkiyHdYDL)

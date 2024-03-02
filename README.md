@@ -20,10 +20,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor]([https://ww
 
 ### Screenshot
 - Desktop:
-(![MacBook Pro-1709415400104](https://github.com/FrancisoRocha/recipe-page-main/assets/122055396/caa9e329-dcde-4f67-a29e-52e90d3f7313)
+![MacBook Pro-1709415400104](https://github.com/FrancisoRocha/recipe-page-main/assets/122055396/caa9e329-dcde-4f67-a29e-52e90d3f7313)
 
 - Mobile: 
-[iPhone 12 Pro-1709412119906](https://github.com/FrancisoRocha/recipe-page-main/assets/122055396/7908a2fe-682b-48cc-b489-5753b7001794)
+![iPhone 12 Pro-1709412119906](https://github.com/FrancisoRocha/recipe-page-main/assets/122055396/7908a2fe-682b-48cc-b489-5753b7001794)
 
 ### Links
 

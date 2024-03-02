@@ -29,7 +29,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor]([https://ww
 ### Links
 
 - Solution URL: [Add solution URL here]([https://your-solution-url.com)](https://www.frontendmentor.io/solutions/httpsgithubcomfrancisorocharecipepagemainblobmainstylecss-BJkiyHdYDL)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://francisorocha.github.io/recipe-page-main/))
+- Live Site URL: [Add live site URL here](https://francisorocha.github.io/recipe-page-main/))
 
 ## My process
 

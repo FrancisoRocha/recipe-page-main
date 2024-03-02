@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor]([https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm](https://www.frontendmentor.io/solutions/httpsgithubcomfrancisorocharecipepagemainblobmainstylecss-BJkiyHdYDL)). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -21,8 +21,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 
 ### Screenshot
+- Desktop:
+![](![MacBook Pro-1709415400104](https://github.com/FrancisoRocha/recipe-page-main/assets/122055396/caa9e329-dcde-4f67-a29e-52e90d3f7313)
 
-![](./screenshot.jpg)
+- Mobile: 
+![iPhone 12 Pro-1709412119906](https://github.com/FrancisoRocha/recipe-page-main/assets/122055396/7908a2fe-682b-48cc-b489-5753b7001794)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -34,8 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com)](https://www.frontendmentor.io/solutions/httpsgithubcomfrancisorocharecipepagemainblobmainstylecss-BJkiyHdYDL)
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://francisorocha.github.io/recipe-page-main/))
 
 ## My process
 
@@ -46,60 +49,53 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+During this project, I learned a lot about responsive design and how to create interfaces that adapt to different devices and screen sizes. Here is a CSS code example showing how responsive design can be applied using media queries:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div id="container">
+    <div id="one">
+        <div class="image">
+          <img class="omelette" src="assets/images/image-omelette.jpeg" alt="foto de un omelette">
+</div>
+    <h1 class="title">Simple Omelette Recipe</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media screen and (769px <= width <= 1024px){
+    #container{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+In addition to responsive design, I also dove into improving web app accessibility. I learned the importance of correctly structuring HTML and using attributes like alt on images to improve the user experience for those with visual impairments. Here is an example of how to add the alt attribute to an image:
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
+<img class="omelette" src="assets/images/image-omelette.jpeg" alt="foto de un omelette">
+```
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For my continued development, I would like to focus on the following areas:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Advanced JavaScript: I want to delve into more advanced JavaScript concepts, such as object-oriented programming, DOM manipulation, and using frameworks like React or Vue.js.
+
+Advanced Responsive Design: Although I have learned the fundamentals of responsive design, I would like to explore more advanced techniques to create even more adaptive and optimized interfaces for a wide range of devices.
+
+Web Accessibility: I will continue to improve my skills in creating accessible websites for people with disabilities, including implementing best practices such as semantic tags, aria attributes, and appropriate color contrasts.
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Media Query en CSS - Ancho de Pantalla Max y Min para Diseño Adaptable en Dispositivos Móviles]([https://www.example.com](https://www.freecodecamp.org/espanol/news/ejemplo-css-media-query-ancho-de-pantalla-max-y-min-para-diseno-adaptable-en-movil/)) - It helped me understand how to use media queries to create responsive designs on mobile devices. provided me with information on the specific syntax needed to set conditions based on the screen width, whether maximum or minimum. This allowed me to adjust the style of your website based on the screen size of the device it is viewed on, significantly improving the user experience on mobile devices.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [FrancisoRocha](https://github.com/FrancisoRocha)
+- Frontend Mentor - [@FrancisoRocha](https://www.frontendmentor.io/profile/FrancisoRocha)
+- Twitter - [@Francis99472176](https://twitter.com/Francis99472176)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
 

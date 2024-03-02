@@ -1,0 +1,549 @@
+@font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3e6d8;
+}
+hr{
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #b9b7b6;
+}
+/*PRIMERA PARTE DEL RECIPE PAGE*/
+#container{
+padding: 10px;
+width: 40%;
+border: 1px solid #fff;
+margin: 0px auto;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 25px;
+background-color: #ffffff;
+}
+/*CONTENIDO DE RECIPE PAGE*/
+#container #one .image .omelette{
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+#container #one .title{
+    font-family: "Young Serif";
+    font-size: 25px;
+    margin-left: 5%;
+    color: #5f574e;
+    letter-spacing: 1px;
+}
+#container #one .text{
+    font-family: "Outfit";
+    font-size: 14px;
+    padding: 18px;
+    margin: 4px;
+    margin-left: 12px;
+}
+#container #one .table{
+    width: 86%;
+    padding: 10px;
+    height: 130px;
+    margin-left: 4%;
+    background-color: #fccce1;
+    border-radius: 10px;
+}
+#container #one .table .sub-title{
+    color: #7b284f;
+    font-family: "Outfit";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 2%;
+    letter-spacing: 1px;
+}
+#container #one .table li{
+    padding-top: 16px;
+    margin-left: 7%;
+    font-family: "Outfit";
+    font-size: 16px;
+    color: #5f574e
+}
+#container #one .table-1 .sub{
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#container #one .table-1 ul{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: "Outfit";
+    font-size: 16px;
+}
+#container #one .table-1 li {
+    padding-top: 5px;
+    list-style: square;
+    color: #5f574e;
+}
+#container #two .sub{
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#container #two ol li{
+    padding: 0px 45px 0px 0px ;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: "Outfit";
+    font-size: 15px;
+    color: #5f574e;
+    text-align: justify;
+}
+#container #three .sub{
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#container #three .text{
+    font-family: "Outfit";
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #5f574e;
+}
+#container #three .content .table{
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-collapse: separate; /* Indica que las celdas tienen bordes separados */
+    border-spacing: 10px;
+}
+#container #three .content .table .info{
+    color: #5f574e;
+    font-family: "Outfit";
+    font-size: 16px;
+}
+#container #three .content .table .calori{
+    color: #854632;
+    font-family: "Outfit";
+    font-size: 16px;
+    padding-left: 200px;
+}
+#container #three .content .table .calori {
+    color: #854632;
+    font-family: "Outfit";
+    font-size: 16px;
+    margin-left: 200px;
+    border-bottom: 1px solid #b6b6b6; 
+    padding-left: 200px;
+}
+#container .attribution{
+    text-align: center;
+    margin-top: 25px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+#container .attribution a{
+    list-style: none;
+    text-decoration: none;
+    color: #c003d5;
+}
+@media screen and (320px <= width <= 480px){
+
+    #container{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #container #one .image .omelette{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #container #one .title{
+        font-size: 35px;
+        margin-top: 25px;
+        text-align: left;
+    }
+    #container #one .text{
+        font-family: "Outfit";
+        font-size: 20px;
+        padding: 25px;
+        margin-left: 2px;
+        color: #5f574e;
+    }
+    #container #one .table{
+        width: 70%;
+        height: 90%;
+        padding: 30px;
+        margin: 0px auto;
+        margin-left: 20px;
+        background-color: #fccce1;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    #container #one .table .sub-title{
+        color: #7b284f;
+        font-family: "Outfit";
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 1%;
+        letter-spacing: 1px;
+    }
+    #container #one .table li{
+        margin-left: 15%;
+        font-family: "Outfit";
+        font-size: 18px;
+        color: #5f574e
+    }
+    #container #one .table-1 .sub{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    #container #one .table-1 ul{
+        font-size: 20px;
+        margin-top: 2%;
+        margin-left: 50px;
+    }
+    #container #one .table-1 ul li{
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    #container #two .sub{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #container #two ol li{
+        margin-left: 50px;
+        padding: 0px 50px 0px 0px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #container #three .sub{
+        font-size: 30px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+    #container #three .text{
+        font-size: 18px;
+        padding-right: 55px;
+        margin-left: 35px;
+        text-align: justify;
+    }
+    #container #three .content .table{
+        margin: 0px auto;
+        margin-top: 20px;
+        border-collapse: separate; /* Indica que las celdas tienen bordes separados */
+        border-spacing: 10px;
+    }
+    #container #three .content .table .info{
+        font-size: 20px;
+    }
+    #container #three .content .table .calori{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #container #three .content .table .calori {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+    #container .attribution{
+        text-align: center;
+        margin-top: 25px;
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #container .attribution{
+        background-color: #fccb4f;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 25px;
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #container .attribution a{
+        font-size: 15px;
+        list-style: none;
+        text-decoration: none;
+        color: #c003d5;
+    }
+}
+@media screen and (481px <= width <= 768px){
+
+    #container{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #container #one .image .omelette{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #container #one .title{
+        font-size: 35px;
+        margin-top: 25px;
+        text-align: left;
+    }
+    #container #one .text{
+        font-family: "Outfit";
+        font-size: 20px;
+        padding: 25px;
+        margin-left: 2px;
+        color: #5f574e;
+    }
+    #container #one .table{
+        width: 70%;
+        height: 90%;
+        padding: 30px;
+        margin: 0px auto;
+        margin-left: 20px;
+        background-color: #fccce1;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    #container #one .table .sub-title{
+        color: #7b284f;
+        font-family: "Outfit";
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 1%;
+        letter-spacing: 1px;
+    }
+    #container #one .table li{
+        margin-left: 15%;
+        font-family: "Outfit";
+        font-size: 18px;
+        color: #5f574e
+    }
+    #container #one .table-1 .sub{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    #container #one .table-1 ul{
+        font-size: 20px;
+        margin-top: 2%;
+        margin-left: 50px;
+    }
+    #container #one .table-1 ul li{
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    #container #two .sub{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #container #two ol li{
+        margin-left: 50px;
+        padding: 0px 50px 0px 0px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #container #three .sub{
+        font-size: 30px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+    #container #three .text{
+        font-size: 18px;
+        padding-right: 55px;
+        margin-left: 35px;
+        text-align: justify;
+    }
+    #container #three .content .table{
+        margin: 0px auto;
+        margin-top: 20px;
+        border-collapse: separate; /* Indica que las celdas tienen bordes separados */
+        border-spacing: 10px;
+    }
+    #container #three .content .table .info{
+        font-size: 20px;
+    }
+    #container #three .content .table .calori{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #container #three .content .table .calori {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+    #container .attribution{
+        text-align: center;
+        margin-top: 25px;
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #container .attribution{
+        background-color: #fccb4f;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 25px;
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #container .attribution a{
+        font-size: 15px;
+        list-style: none;
+        text-decoration: none;
+        color: #c003d5;
+    }
+}
+@media screen and (769px <= width <= 1024px){
+
+    #container{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #container #one .image .omelette{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #container #one .title{
+        font-size: 35px;
+        margin-top: 25px;
+        text-align: left;
+    }
+    #container #one .text{
+        font-family: "Outfit";
+        font-size: 20px;
+        padding: 25px;
+        margin-left: 2px;
+        color: #5f574e;
+    }
+    #container #one .table{
+        width: 100%;
+        height: 90%;
+        padding: 30px;
+        /* margin: 0px auto; */
+        margin-left: 500%;
+        background-color: #fccce1;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    #container #one .table .sub-title{
+        color: #7b284f;
+        font-family: "Outfit";
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 15%;
+        letter-spacing: 1px;
+    }
+    #container #one .table li{
+        margin-left: 35%;
+        font-family: "Outfit";
+        font-size: 18px;
+        color: #5f574e
+    }
+    #container #one .table-1 .sub{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    #container #one .table-1 ul{
+        font-size: 20px;
+        margin-top: 2%;
+        margin-left: 50px;
+    }
+    #container #one .table-1 ul li{
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    #container #two .sub{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #container #two ol li{
+        margin-left: 50px;
+        padding: 0px 50px 0px 0px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #container #three .sub{
+        font-size: 30px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+    #container #three .text{
+        font-size: 18px;
+        padding-right: 55px;
+        margin-left: 35px;
+        text-align: justify;
+    }
+    #container #three .content .table{
+        margin: 0px auto;
+        margin-top: 20px;
+        border-collapse: separate; /* Indica que las celdas tienen bordes separados */
+        border-spacing: 10px;
+    }
+    #container #three .content .table .info{
+        font-size: 20px;
+    }
+    #container #three .content .table .calori{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #container #three .content .table .calori {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+    #container .attribution{
+        text-align: center;
+        margin-top: 25px;
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #container .attribution{
+        background-color: #fccb4f;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 25px;
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #container .attribution a{
+        font-size: 15px;
+        list-style: none;
+        text-decoration: none;
+        color: #c003d5;
+    }
+}

@@ -1,0 +1,279 @@
+:root{
+    --fondo: hsl(30, 54%, 90%);
+    --color-card: hsl(0, 0%, 100%);
+    --color-fuente-one: hsl(30, 10%, 34%);
+    --color-fuente-principal: hsl(24, 5%, 18%);
+    --color-fuente-secundaria: hsl(14, 45%, 36%);
+    --color-fuente-tercera: hsl(332, 51%, 32%);
+    --color-background-rosa: hsl(330, 100%, 98%);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Young-Serif';
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--fondo);
+}
+.contenedor{
+    display: flex;
+    margin: auto;
+    width: 736px;
+    height: 1700px;
+    background-color: var(--color-card);
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 25px;
+}
+.omelette{
+    width: 656px;
+    height: 300px;
+    border-radius: 12px;
+    margin: 40px 0px 0px 40px;
+}
+.contenido{
+    width: 656px;
+    height: 1280px;
+    margin-top: 360px;
+    margin-left: -657px;
+}
+.title{
+    font-family: 'Young-Serif';
+    font-size: 40px;
+    color: var(--color-fuente-principal);
+}
+.text-initial{
+    font-family: 'Outfit';
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-fuente-one);
+    font-weight: 400;
+}
+.lista-preparation{
+    margin-top: 32px;
+    width: 656px;
+    height: 172px;
+    background-color: var(--color-background-rosa);
+    border-radius: 12px;
+    line-height: 100%;
+}
+.title-time{
+    font-family: 'Outfit';
+    color: var(--color-fuente-tercera);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-left: 60px;
+    list-style: disc;
+}
+.pasos{
+    font-family:'Outfit';
+    color: var(--color-fuente-one);
+    font-size: 16px;
+    font-weight: 400;
+}
+.total,
+.prepara,
+.cocina{
+    font-family:'Outfit';
+    color: var(--color-fuente-one);
+    font-size: 16px;
+    font-weight: bold;
+}
+.time li{
+    margin-top: 20px;
+}
+/* INGREDIENTES */
+.ingredientes{
+    width: 656px;
+    height: 204px;
+    margin-top: 35px;
+}
+.title-ingre{
+    font-family: 'Young-Serif';
+    font-size: 28px;
+    color: var(--color-fuente-secundaria);
+}
+.lista-ingre{
+    margin-top: 20px;
+}
+.ingredientes-list{
+    margin-left: 52px;
+    color: var(--color-fuente-one);
+    font-family:'Outfit';
+    font-size: 16px;
+    line-height: 150%;
+    list-style: disc;
+}
+/* INSTRUCCIONES */
+.instruciones{
+    border-top: 1px solid #E3DDD7;
+    padding-bottom: 40px;
+}
+.title__instruccion{
+    font-family: 'Young-Serif';
+    font-size: 28px;
+    color: var(--color-fuente-secundaria);
+    padding-top: 52px;
+}
+.ingre_pasos{
+    font-size: 16px;
+    font-family: 'Outfit';
+    line-height: 150%;
+    margin-top: 16px;
+    margin-left: 16px;
+    color: var(--color-fuente-one);
+    font-weight: 400;
+}
+.numeros{
+    font-size: 16px;
+    color: var(--color-fuente-secundaria);
+    font-weight: 900;
+}
+.text-secondary{
+    color: var(--color-fuente-one);
+    font-weight: bold;
+    margin-left: 15px;
+}
+/* NUTRICIONES */
+.nutriciones{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #E3DDD7;
+}
+.title-nutri{
+    font-family: 'Young-Serif';
+    font-size: 28px;
+    color: var(--color-fuente-secundaria);
+    padding-top: 32px;
+}
+.text-nutri{
+    font-size: 16px;
+    font-family: 'Outfit';
+    line-height: 150%;
+    margin-top: 16px;
+    margin-left: 16px;
+    color: var(--color-fuente-one);
+    font-weight: 400;
+}
+.list__nutri{
+    width: 556px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.list__nutri span{
+    margin-left: 270px;
+    color: var(--color-fuente-secundaria);
+    font-weight: bold;
+}
+.nutricion{
+    margin-top: 20px;
+    border-bottom: 1px solid #E3DDD7;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: var(--color-fuente-one);
+}
+.nutricion:nth-child(4){
+    border-bottom: none;
+}
+
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: var(--color-card);
+    }
+    .contenedor{
+        width: 100%;
+        height: 1872px;
+        margin-top: 0;
+    }
+    .omelette{
+        width: 100%;
+        height: 171px;
+        margin-top: 0;
+        margin-left: 0;
+        border-radius: 1px;
+    }
+    .title{
+        display: flex;
+        width: 311px;
+        font-size: 36px;
+        margin-top: -150px;
+        margin-left: 310px;
+    }
+    .text-initial{
+        width: 311px;
+        margin-left: 310px;
+    }
+    .lista-preparation{
+        width: 311px;
+        height: 196px;
+        margin-left: 310px;
+    }
+    .title-ingre{
+        margin-left: 310px;
+    }
+    .ingredientes-list{
+        margin-left: 330px;
+        width: 290px;
+        margin-top: 10px;
+    }
+    .instruciones{
+        margin-top: 70px;
+    }
+    .title__instruccion{
+        margin-left: 310px;
+    }
+    .list__ingre{
+        margin-top: 50px;
+    }
+    .ingre_pasos{
+        width: 311px;
+        margin-left: 310px;
+    }
+    .title-nutri{
+        margin-left: 310px;
+    }
+    .text-nutri{
+        margin-top: 30px;
+        margin-left: 311px;
+        margin-bottom: 30px;
+    }
+    .list__nutri{
+        width: 311px;
+        margin-left: 290px;
+    }
+    .list__nutri span{
+        margin-left: 190px;
+        color: var(--color-fuente-secundaria);
+    }    
+    .nutricion{
+        margin-left: 10px;
+    }
+
+}
+
